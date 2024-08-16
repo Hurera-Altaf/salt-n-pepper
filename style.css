@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    color: #ffffff;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: apercu;
+    line-height: 24px;
+}
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 95px;
+    align-items: center;
+    background-color: #000000;
+}
+
+#nav-logo{
+    max-height: 80px;
+    max-width: 100%;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.nav-button{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#get-franchise{
+    background-color: #000;
+    border: 1px solid #fff;
+}
+#order-online{
+    border: 5px solid red;
+    background-color: red;
+}
+
+.nav-button a{
+    border: 5px solid red;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+
+.slide-wrapper{
+    position: relative;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.slider{
+    display: flex;
+    height: 550px;
+    overflow-x: auto;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1 rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 30px;
+    margin-right: 10px;
+    height: 3px;
+    background-color: rgb(180, 190, 202);
+    opacity: 0.75;
+    transition: ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+.resturants{
+    background-color: #000;
+    text-align: center;
+    height: 580px;
+}
+
+.txt{
+    padding-top: 80px;
+    font-size: 39px;
+    font-weight: 200;
+}
+
+.large-font{
+    margin-bottom: 24px;
+}
+
+#grey{
+    font-size: 16px;
+    color: #cdc2c2;
+    margin-bottom: 20px;
+}
+
+#name{
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(228, 29, 29);
+    font-size: 48px;
+}
+
+.resturant-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.card img{
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.res-button{
+    padding: 15px 48px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #000;
+    border: 1px solid #7a7676;
+    cursor: pointer;
+}
+
+.container-islamabad{
+    background-color: #0f0f0f;
+    text-align: center;
+    height: 580px;
+}
+
+#name-one{
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    font-size: 48px;
+    
+}
+
+.c-isl{
+    padding-bottom: 10px;
+}
+
+.isl-branch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 130px;
+    margin-top: 60px;
+}
+
+.isl-txt{
+    text-align: left;
+    margin-left: 80px;
+    line-height: 30px;
+}
+
+#isl{
+    letter-spacing: 10px;
+    color: red;
+}
+
+.large{
+    font-size: 28px;
+}
+
+.salt{
+    font-family: "Luckiest Guy", cursive
+}
+
+.isl-fsd{
+    background-color: #0f0f0f;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fsd-txt{
+    text-align: left;
+    margin-left: 0px;
+    position: relative;
+    right: 150px;
+}
+
+.bwp-branch{
+    background-color: #0f0f0f;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.express-franchise{
+    text-align: center;
+    position: relative;
+    top: 700px;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.express-font{
+    font-size: 42px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exp{
+
+}
+
+.exp-card img{
+    width: 350px;
+    height: 250px;
+    padding: 0px;
+}
+
+.exp-card{
+    line-height: 40px;
+}
+
+.container-village{
+    position: relative;
+    top: 700px;
+    margin-top: 0px;
+    background-color: #0f0f0f;
+    text-align: center;
+}
+
+
+.village-brach{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.vil-img img{
+    width: 700px;
+}
+
+.vil-img{
+    padding-bottom: 50px;
+}
+
+.vil-txt{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.vil-btn{
+    background-color: rgb(62, 205, 62);
+}
+
+.footer{
+    background-color: #000000;
+    height: 500px;
+    position: relative;
+    top: 800px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-self: center;
+    padding: 50px 30px;
+    margin-top: -100px;
+}
+
+.col-1, .col-2, .col-3, .col-4{
+    width: 250px;
+}
